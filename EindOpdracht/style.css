@@ -1,34 +1,17 @@
+
 body {
-    background-color: rgb(20 20 20);
+    background-color: rgb(0 0 0);
     color: whitesmoke;
 }
-  
 
-/*Index-page*/
-#index {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 10px;
-    background-color: rebeccapurple;
-}
 /*Slipknot*/
 #slipknot {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 10px;
+    padding: 0.05px;
+    margin: 10px;
     background-color: darkred;
+    text-align: center;
 }
-/*Wolfmother*/
-#Wolfmother {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 10px;
-    background-color: darkslategrey;
-}
-
 #facts {
     box-sizing: border-box;
     padding: 0;
@@ -37,11 +20,26 @@ body {
     background-color: midnightblue;
 }
 
-.SlipknotImage{
-    float: right;
-    padding: 30px;
+#MainText{
+  text-align:center;
 }
 
+#OnStage{
+  float: left;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-right: 30px;
+}
+
+#Band{
+  float: right;
+  padding: 30px;
+  margin-left: 30px;
+}
+
+#bandText{
+  margin-left: 20px;
+}
 
 button {
     font-size: 2em;
@@ -61,9 +59,11 @@ button {
     transform: translateY(-0.5em);
  }
 
- /* Navigation Bar */
+ 
+
+ /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
 .navbar {
-    background-color: #6d6d6d;
+    background-color: #3f0000;
     overflow: hidden;
   }
 
@@ -80,16 +80,71 @@ button {
   /* Change the color on hover */
   .navbar a:hover {
     background-color: #434343;
+    transform: translateY(+0.3em);
+    transition: 250ms;
   }
 
   /* Add a color to the current page */
   .navbar a.active {
-    background-color: #8b8b8b;
+    background-color: #464646;
     color: white;
   }
+  
 nav {
-    background-color: lightgray;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  background-color: #000000;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+/*----------------------------------------------------------------------------------- Navigation bar end -----------------------------------------------------------------------*/
+
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('images/Slipknot.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.flex-item {
+  padding: 5px;
+  width: 500px;
+  height: 500px;
+  margin: 150px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.wrap    { 
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}  
+.wrap li {
+  background: rgb(63, 0, 0);
+  padding-top: 10px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+.flex-item:hover{
+  filter: brightness(50%);
+  transition: 500ms;
+
 }
