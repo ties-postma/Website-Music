@@ -4,36 +4,33 @@ body {
     color: whitesmoke;
 }
 
-#slipknot {
+.slipknot {
     box-sizing: border-box;
     padding: 0.05px;
     margin: 10px;
     background-color: darkred;
     text-align: center;
 }
-#facts {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    padding-bottom: 10px;
-    background-color: midnightblue;
-}
 
-#MainText{
+.MainText{
   text-align:center;
 }
 
-#OnStage{
+.OnStage{
   float: left;
   padding: 10px;
   padding-bottom: 0px;
   padding-right: 30px;
+  width: 30%;
+  height: 30%;
 }
 
-#Band{
+.Band{
   float: right;
-  padding: 30px;
-  margin-left: 30px;
+  padding: 10px;
+  margin-left: 20px;
+  width: 20%;
+  height: 20%;
 }
 
 #bandText{
@@ -113,12 +110,17 @@ body, html {height: 100%}
   opacity: 0;
 }
 
+.flex-image{
+  width: 400px; 
+  height: 400px;
+}
+
 /*----------------------------------------------------------------------------------- Wrapping album covers-----------------------------------------------------------------------*/
 .flex-item {
   padding: 5px;
   width: 500px;
   height: 500px;
-  margin: 150px;
+  margin: 100px;
   line-height: 50px;
   font-weight: bold;
   font-size: 2em;
@@ -148,7 +150,7 @@ body, html {height: 100%}
 }
 
 .flex-item:hover {
-  filter: brightness(.2);
+  filter: brightness(.5);
   transition: 500ms;
 }
 
@@ -162,6 +164,7 @@ body, html {height: 100%}
   opacity: 100;
   transition: 500ms;
   backdrop-filter: brightness(0);
+  filter: brightness(1);
 }
 
 /*----------------------------------------------------------------------------------- Wrapping album covers end --------------------------------------------------------------------*/
