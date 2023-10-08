@@ -1,170 +1,167 @@
 
 body {
-    background-color: rgb(0 0 0);
-    color: whitesmoke;
+  background-color: rgb(0 0 0);
+  color: whitesmoke;
+}
+
+
+body,h1 {
+font-family: "Raleway", sans-serif
+}
+
+body, html {
+height: 100%
 }
 
 .slipknot {
-    box-sizing: border-box;
-    padding: 0.05px;
-    margin: 10px;
-    background-color: darkred;
-    text-align: center;
+  box-sizing: border-box;
+  padding: 0.05px;
+  margin: 10px;
+  background-color: darkred;
+  text-align: center;
 }
 
-.MainText{
-  text-align:center;
+.main-text{
+text-align:center;
 }
 
 .OnStage{
-  float: left;
-  padding: 10px;
-  padding-bottom: 0px;
-  padding-right: 30px;
-  width: 30%;
-  height: 30%;
+float: left;
+padding: 10px;
+padding-bottom: 0px;
+padding-right: 30px;
+width: 30%;
+height: 30%;
 }
 
 .Band{
-  float: right;
-  padding: 10px;
-  margin-left: 20px;
-  width: 20%;
-  height: 20%;
+float: right;
+padding: 10px;
+margin-left: 20px;
+width: 20%;
+height: 20%;
 }
 
-#bandText{
-  margin-left: 20px;
-}
 
 button {
-    font-size: 2em;
-    color: black;
-    text-transform: uppercase;
-    border: 4px solid black;
-    padding: 0.5em;
-    border-radius: 0.3em;
-    background: none;
-    transition: all 250ms ease;
-    display: block;
- }
+  font-size: 2em;
+  color: black;
+  text-transform: uppercase;
+  border: 4px solid black;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  background: none;
+  transition: all 250ms ease;
+  display: block;
+}
 
- button:hover {
-    background: black;
-    color: white;
-    transform: translateY(-0.5em);
- }
+button:hover {
+  background: black;
+  color: white;
+  transform: translateY(-0.5em);
+}
 
- 
 
- /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
+
+/* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
 .navbar {
-    background-color: #3f0000;
-    overflow: hidden;
-  }
+  background-color: #3f0000;
+  overflow: hidden;
+}
 
-  /* Style of buttons */
-  .navbar a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
+/* Style of buttons */
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  /* Change the color on hover */
-  .navbar a:hover {
-    background-color: #434343;
-    transform: translateY(+0.3em);
-    transition: 250ms;
-  }
+/* Change the color on hover */
+.navbar a:hover {
+  background-color: #434343;
+  transform: translateY(+0.3em);
+  transition: 250ms;
+}
 
-  /* Add a color to the current page */
-  .navbar a.active {
-    background-color: #464646;
-    color: white;
-  }
-  
 nav {
-  background-color: #000000;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
+background-color: #000000;
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
 }
 
 /*----------------------------------------------------------------------------------- Navigation bar end -----------------------------------------------------------------------*/
-
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
 .bgimg {
-  background-image: url('images/Slipknot.png');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+background-image: url('images/Slipknot.png');
+min-height: 100%;
+background-position: center;
+background-size: cover;
 }
 
-.centered{
-  opacity: 0;
+.centered-text{
+opacity: 0;
 }
 
 .flex-image{
-  width: 400px; 
-  height: 400px;
+width: 400px; 
+height: 400px;
 }
 
 /*----------------------------------------------------------------------------------- Wrapping album covers-----------------------------------------------------------------------*/
 .flex-item {
-  padding: 5px;
-  width: 500px;
-  height: 500px;
-  margin: 100px;
-  line-height: 50px;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center;
+padding: 5px;
+width: 500px;
+height: 500px;
+margin: 100px;
+line-height: 50px;
+font-weight: bold;
+font-size: 2em;
+text-align: center;
 }
 
 .wrap    { 
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
+-webkit-flex-wrap: wrap;
+flex-wrap: wrap;
 }  
 .wrap li {
-  background: rgb(63, 0, 0);
-  padding-top: 10px;
+background: rgb(63, 0, 0);
+padding-top: 10px;
 }
 
 .flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
+padding: 0;
+margin: 0;
+list-style: none;
+-ms-box-orient: horizontal;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -moz-flex;
+display: -webkit-flex;
+display: flex;
 }
 
 .flex-item:hover {
-  filter: brightness(.5);
-  transition: 500ms;
+filter: brightness(.5);
+transition: 500ms;
 }
 
-.flex-item:hover .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
-  transform: translate(-50%, -50%);
-  opacity: 100;
-  transition: 500ms;
-  backdrop-filter: brightness(0);
-  filter: brightness(1);
+.flex-item:hover .centered-text {
+position: absolute;
+top: 50%;
+left: 50%;
+padding-left: 10px;
+padding-right: 10px;
+transform: translate(-50%, -50%);
+opacity: 100;
+transition: 500ms;
+backdrop-filter: brightness(0);
+filter: brightness(1);
 }
 
 /*----------------------------------------------------------------------------------- Wrapping album covers end --------------------------------------------------------------------*/
