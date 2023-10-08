@@ -79,7 +79,8 @@ button:hover {
 }
 
 /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
-ul {
+
+ul:not(.flex-container) {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -87,11 +88,11 @@ ul {
   background-color:#3f0000;
 }
 
-li {
+li:not(.wrap) {
   float: left;
 }
 
-li a {
+li:not(.wrap) a:not(.wrap) {
   display: block;
   text-align: center;
   padding: 15px 20px;
@@ -99,12 +100,12 @@ li a {
   transition: 250ms;
 }
 
-li a:hover {
+li a:hover :not(.wrap) {
   background-color: #434343;
   transform: translateY(+0.3em);
 }
 
-nav {
+nav :not(.wrap){
 background-color: #000000;
 list-style-type: none;
 margin: 0;
