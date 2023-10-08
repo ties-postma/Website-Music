@@ -88,11 +88,11 @@ ul:not(.flex-container) {
   background-color:#3f0000;
 }
 
-li:not(.wrap) {
+li:not(.flex-container) {
   float: left;
 }
 
-li:not(.wrap) a:not(.wrap) {
+li:not(.flex-container) a:not(.flex-container) {
   display: block;
   text-align: center;
   padding: 15px 20px;
@@ -100,12 +100,12 @@ li:not(.wrap) a:not(.wrap) {
   transition: 250ms;
 }
 
-li a:hover :not(.wrap) {
+li a:hover :not(.flex-container) {
   background-color: #434343;
   transform: translateY(+0.3em);
 }
 
-nav :not(.wrap){
+nav :not(.flex-container){
 background-color: #000000;
 list-style-type: none;
 margin: 0;
