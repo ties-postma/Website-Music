@@ -81,13 +81,13 @@ button:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition: 250ms;
 }
 
 /* Change the color on hover */
 .navbar a:hover {
   background-color: #434343;
   transform: translateY(+0.3em);
-  transition: 250ms;
 }
 
 nav {
