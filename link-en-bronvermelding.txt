@@ -1,13 +1,18 @@
-Naam:
-Studentnummer:
-Klas:
-Schooljaar:
+Naam: Ties Postma
+Studentnummer: 500933567
+Klas: p07 Oker
+Schooljaar: jaar 1 (2023/2024)
 
 LINK NAAR LIVE WEBSITE
-http://www.mijnlivewebsite.nl
+https://ties-postma.github.io/Website-Music/index.html
 
 BRONVERMELDING
-1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-2.
-3.
-4.
+1. https://css-tricks.com/almanac/properties/f/flex-wrap/ (wrapping boxes voor album covers)
+2. https://en.wikipedia.org/wiki/Slipknot_(band) (een stuk korte informatie en images over en van Slipknot)
+3. https://en.wikipedia.org/wiki/Slipknot_%28album%29 (album cover foto)
+4. https://en.wikipedia.org/wiki/Iowa_%28album%29 (album cover foto)
+5. https://en.wikipedia.org/wiki/Vol._3:_%28The_Subliminal_Verses%29 (album cover foto)
+6. https://slipknot.fandom.com/wiki/All_Hope_Is_Gone_(album) (album cover foto)
+7. https://en.wikipedia.org/wiki/.5:_The_Gray_Chapter (album cover foto)
+8. https://en.wikipedia.org/wiki/We_Are_Not_Your_Kind (album cover foto)
+9. https://en.wikipedia.org/wiki/The_End,_So_Far (album cover foto)

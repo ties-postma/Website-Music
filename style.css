@@ -79,23 +79,27 @@ button:hover {
 }
 
 /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
-.navigationbar {
-  background-color: #3f0000;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  background-color:#3f0000;
 }
 
-/* Style of buttons */
-.navigationbar a {
+li {
   float: left;
+}
+
+li a {
+  display: block;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration:none;
-  font-size: 17px;
+  padding: 15px 20px;
+  text-decoration: none;
   transition: 250ms;
 }
 
-/* Change the color on hover */
-.navigationbar a:hover {
+li a:hover {
   background-color: #434343;
   transform: translateY(+0.3em);
 }
@@ -169,5 +173,9 @@ opacity: 100;
 transition: 500ms;
 backdrop-filter: brightness(0);
 filter: brightness(1);
+}
+
+.wrap{
+  background-color: #000000;
 }
 /*----------------------------------------------------------------------------------- Wrapping album covers end --------------------------------------------------------------------*/
