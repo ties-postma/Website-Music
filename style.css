@@ -4,13 +4,19 @@ body {
   color: whitesmoke;
 }
 
-
 body,h1 {
 font-family: "Raleway", sans-serif
 }
 
 body, html {
 height: 100%
+}
+
+.bgimg {
+  background-image: url('images/Slipknot.png');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .slipknot {
@@ -42,7 +48,6 @@ width: 20%;
 height: 20%;
 }
 
-
 button {
   font-size: 2em;
   color: black;
@@ -60,7 +65,6 @@ button:hover {
   color: white;
   transform: translateY(-0.5em);
 }
-
 
 
 /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
@@ -94,23 +98,8 @@ padding: 0;
 display: flex;
 justify-content: center;
 }
-
 /*----------------------------------------------------------------------------------- Navigation bar end -----------------------------------------------------------------------*/
-.bgimg {
-background-image: url('images/Slipknot.png');
-min-height: 100%;
-background-position: center;
-background-size: cover;
-}
 
-.centered-text{
-opacity: 0;
-}
-
-.flex-image{
-width: 400px; 
-height: 400px;
-}
 
 /*----------------------------------------------------------------------------------- Wrapping album covers-----------------------------------------------------------------------*/
 .flex-item {
@@ -124,10 +113,20 @@ font-size: 2em;
 text-align: center;
 }
 
+.flex-image{
+  width: 400px; 
+  height: 400px;
+}
+
+.centered-text{
+  opacity: 0;
+}
+
 .wrap    { 
 -webkit-flex-wrap: wrap;
 flex-wrap: wrap;
-}  
+}
+
 .wrap li {
 background: rgb(63, 0, 0);
 padding-top: 10px;
@@ -163,5 +162,4 @@ transition: 500ms;
 backdrop-filter: brightness(0);
 filter: brightness(1);
 }
-
 /*----------------------------------------------------------------------------------- Wrapping album covers end --------------------------------------------------------------------*/
