@@ -80,7 +80,7 @@ button:hover {
 
 /* -------------------------------------------------------------------------------------------- Navigation Bar ------------------------------------------------------ */
 
-ul:not(.flex-container) {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -88,11 +88,11 @@ ul:not(.flex-container) {
   background-color:#3f0000;
 }
 
-li:not(.flex-container) {
+li{
   float: left;
 }
 
-li:not(.flex-container) a:not(.flex-container) {
+li:not(.flex-item) a{
   display: block;
   text-align: center;
   padding: 15px 20px;
@@ -100,12 +100,12 @@ li:not(.flex-container) a:not(.flex-container) {
   transition: 250ms;
 }
 
-li a:hover :not(.flex-container) {
+li:not(.flex-item) a:hover{
   background-color: #434343;
   transform: translateY(+0.3em);
 }
 
-nav :not(.flex-container){
+nav{
 background-color: #000000;
 list-style-type: none;
 margin: 0;
