@@ -145,6 +145,7 @@ transition: 500ms;
 
 .wrap    { 
 flex-wrap: wrap;
+background-color: #000000;
 }
 
 .wrap li {
@@ -181,7 +182,4 @@ backdrop-filter: brightness(0);
 filter: brightness(1);
 }
 
-.wrap{
-  background-color: #000000;
-}
 /*----------------------------------------------------------------------------------- Wrapping album covers end --------------------------------------------------------------------*/
