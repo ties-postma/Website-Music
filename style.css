@@ -21,7 +21,7 @@ height: 100%
 }
 
 .bgimg {
-  background-image: url('images/Slipknot.png');
+  background-image: url('images/slipknot_bg.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -33,6 +33,11 @@ height: 100%
   margin: 10px;
   background-color: darkred;
   text-align: center;
+}
+
+.bar {
+  margin:auto;
+  width:60%;
 }
 
 .main-text{
